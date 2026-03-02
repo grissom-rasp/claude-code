@@ -1,2 +1,12 @@
 .DS_Store
 
+# Docker workspace
+workspace/*
+!workspace/.gitkeep
+
+# Docker volumes
+.env
+.env.local
+
+# Docker build
+*.tar
